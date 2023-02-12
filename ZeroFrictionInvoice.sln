@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Zero Friction  Invoice API.postman_collection.json = Zero Friction  Invoice API.postman_collection.json
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroFrictionInvoice.Tests", "ZeroFrictionInvoice.Tests\ZeroFrictionInvoice.Tests.csproj", "{C451F37E-8F55-42F4-BE38-A77B7FF0B330}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,9 @@ Global
 		{BEC01544-EF4E-408D-8961-623A6581E8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEC01544-EF4E-408D-8961-623A6581E8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEC01544-EF4E-408D-8961-623A6581E8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C451F37E-8F55-42F4-BE38-A77B7FF0B330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C451F37E-8F55-42F4-BE38-A77B7FF0B330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C451F37E-8F55-42F4-BE38-A77B7FF0B330}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
