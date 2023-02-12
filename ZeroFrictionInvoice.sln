@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroFrictionInvoice.Api", "ZeroFrictionInvoice.Api\ZeroFrictionInvoice.Api.csproj", "{250140AB-2D38-4F7A-93E6-422EAE11D3C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroFrictionInvoice.Application", "ZeroFrictionInvoice.Application\ZeroFrictionInvoice.Application.csproj", "{17B62F18-1E79-45F1-9754-241EB9E881E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroFrictionInvoice.Domain", "ZeroFrictionInvoice.Domain\ZeroFrictionInvoice.Domain.csproj", "{256B34D5-F315-4B3D-9C71-6B0B0A8C51BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroFrictionInvoice.Persistence", "ZeroFrictionInvoice.Persistence\ZeroFrictionInvoice.Persistence.csproj", "{BEC01544-EF4E-408D-8961-623A6581E8F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7CBB12F8-476E-4322-A413-8B291C860C91}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+		Zero Friction  Invoice API.postman_collection.json = Zero Friction  Invoice API.postman_collection.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{250140AB-2D38-4F7A-93E6-422EAE11D3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250140AB-2D38-4F7A-93E6-422EAE11D3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250140AB-2D38-4F7A-93E6-422EAE11D3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250140AB-2D38-4F7A-93E6-422EAE11D3C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B62F18-1E79-45F1-9754-241EB9E881E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B62F18-1E79-45F1-9754-241EB9E881E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B62F18-1E79-45F1-9754-241EB9E881E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B62F18-1E79-45F1-9754-241EB9E881E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256B34D5-F315-4B3D-9C71-6B0B0A8C51BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256B34D5-F315-4B3D-9C71-6B0B0A8C51BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256B34D5-F315-4B3D-9C71-6B0B0A8C51BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256B34D5-F315-4B3D-9C71-6B0B0A8C51BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC01544-EF4E-408D-8961-623A6581E8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC01544-EF4E-408D-8961-623A6581E8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC01544-EF4E-408D-8961-623A6581E8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC01544-EF4E-408D-8961-623A6581E8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92BAEC6D-C228-4A4D-8AC7-E16DB102654B}
+	EndGlobalSection
+EndGlobal

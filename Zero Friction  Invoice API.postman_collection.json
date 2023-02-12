@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "919aa02e-64be-49f6-950e-0c10acbff4d2",
+		"name": "Zero Friction  Invoice API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16221343"
+	},
+	"item": [
+		{
+			"name": "ALL Invoices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5218/Invoices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5218",
+					"path": [
+						"Invoices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Invoice By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5218/Invoices/9be69932-d529-4f2f-ae8e-30ecb05346d2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5218",
+					"path": [
+						"Invoices",
+						"9be69932-d529-4f2f-ae8e-30ecb05346d2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Invoice",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"date\": \"2023-02-12T16:00:58.703Z\",\r\n  \"description\": \"description\",\r\n  \"invoiceLines\": [\r\n    {\r\n      \"item\": \"item1\",\r\n      \"quantity\": 3,\r\n      \"unitPrice\": 22.5\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5218/Invoices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5218",
+					"path": [
+						"Invoices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Invoice",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"date\": \"2023-02-12T16:02:57.792Z\",\r\n  \"description\": \"description2\",\r\n  \"invoiceLines\": [\r\n    {\r\n      \"item\": \"item2\",\r\n      \"quantity\": 5,\r\n      \"unitPrice\": 66.23\r\n    },\r\n    {\r\n      \"item\": \"item3\",\r\n      \"quantity\": 6,\r\n      \"unitPrice\": 26.23\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5218/Invoices/9be69932-d529-4f2f-ae8e-30ecb05346d2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5218",
+					"path": [
+						"Invoices",
+						"9be69932-d529-4f2f-ae8e-30ecb05346d2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
